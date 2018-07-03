@@ -1,16 +1,16 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.6.0",
+  "name": "trello-clone",
+  "version": "0.0.1",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git://github.com/toantd90/trello-clone.git"
   },
   "engines": {
     "npm": ">=5",
     "node": ">=8"
   },
-  "author": "Max Stoiber",
+  "author": "Toan Tran",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
@@ -145,6 +145,7 @@
   },
   "dependencies": {
     "babel-polyfill": "6.26.0",
+    "bootstrap": "^4.1.1",
     "chalk": "^2.4.1",
     "compression": "1.7.2",
     "cross-env": "5.2.0",
@@ -167,6 +168,7 @@
     "react-redux": "5.0.7",
     "react-router-dom": "4.3.1",
     "react-router-redux": "5.0.0-alpha.9",
+    "reactstrap": "^6.2.0",
     "redux": "4.0.0",
     "redux-immutable": "4.0.0",
     "redux-saga": "0.16.0",

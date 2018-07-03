@@ -11,6 +11,8 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
+import { Button } from 'reactstrap';
+
 import messages from './messages';
 
 /* eslint-disable react/prefer-stateless-function */
@@ -19,6 +21,7 @@ export default class HomePage extends React.PureComponent {
     return (
       <h1>
         <FormattedMessage {...messages.header} />
+        <Button color="danger">Danger!</Button>
       </h1>
     );
   }
